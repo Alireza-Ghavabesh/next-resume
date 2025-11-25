@@ -1,9 +1,12 @@
 {
     "header": {
-       "About": "About",
-       "Experience": "Experience",
-       "Skills": "Skills",
-       "Projects": "Projects",
-       "Contact": "Contact"
+        "About": "About",
+        "Experience": "Experience",
+        "Skills": "Skills",
+        "Projects": "Projects",
+        "Contact": "Contact"
+    },
+    "heroSection": {
+        "MyName": "Hi, I'm Alireza Ghavabesh"
     }
 }
