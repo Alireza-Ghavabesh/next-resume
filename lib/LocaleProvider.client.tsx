@@ -17,6 +17,7 @@ type ContextValue = {
   locale: Locale;
   setLocale: (l: Locale) => void;
   t: (namespace: string, key: string) => string;
+  getNamespace: (namespace: string) => Record<string, any>;
 };
 
 const LocaleContext = createContext<ContextValue | undefined>(undefined);
@@ -74,7 +75,11 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
     return String(maybe ?? key);
   };
 
-  const value = useMemo(() => ({ locale, setLocale, t }), [locale]);
+  const getNamespace = (namespace: string) => {
+    return MESSAGES[locale]?.[namespace] || {};
+  };
+
+  const value = useMemo(() => ({ locale, setLocale, t, getNamespace }), [locale]);
 
   return <LocaleContext.Provider value={value}>{children}</LocaleContext.Provider>;
 }
@@ -92,5 +97,6 @@ export function useTranslations(namespace: string) {
   const ctx = useContext(LocaleContext);
   if (!ctx) throw new Error("useTranslations must be used within LocaleProvider");
   const translate = (key: string) => ctx.t(namespace, key);
+  translate.getNamespace = () => ctx.getNamespace(namespace);
   return translate;
 }

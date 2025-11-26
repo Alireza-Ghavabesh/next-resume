@@ -10,6 +10,7 @@ import Image from 'next/image';
 import { useLocale, useTranslations } from '@/lib/LocaleProvider.client';
 import { Squash as Hamburger } from 'hamburger-react'
 
+
 export function HeaderMobile() {
     // 1. STATE MANAGEMENT
     const [isOpen, setIsOpen] = useState(false);
@@ -17,6 +18,7 @@ export function HeaderMobile() {
     const [mounted, setMounted] = useState(false);
     const { locale, setLocale } = useLocale();
     const t = useTranslations('header');
+    const t_common = useTranslations('common');
 
     // 2. EFFECT HOOK for Hydration Fix
     useEffect(() => {
@@ -47,8 +49,9 @@ export function HeaderMobile() {
                     <div className="flex items-center space-x-2">
                         <Image src="/logo.png" alt="Pouya Birvand Logo" width={32} height={32} className="rounded-lg" />
                         <AnimatedShinyText shimmerWidth={50} className='font-bold text-sm'>
-                            Alireza Ghavabesh
+                            {t_common("name")}
                         </AnimatedShinyText>
+                        
                     </div>
 
                     {/* Right section: Icons (Theme, Language, Menu) */}
@@ -81,6 +84,7 @@ export function HeaderMobile() {
                             size={20}
                             duration={0.3}
                         />
+
 
 
                     </div>

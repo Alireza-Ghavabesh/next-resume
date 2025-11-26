@@ -14,6 +14,7 @@ export function HeaderDesktop() {
     const { theme, setTheme } = useTheme();
     const [mounted, setMounted] = useState(false);
     const t = useTranslations('header');
+    const t_common = useTranslations('common');
 
 
     // useEffect only runs on the client, so now we can safely show the UI
@@ -41,7 +42,7 @@ export function HeaderDesktop() {
                     <div className="flex items-center space-x-2">
                         {/* Placeholder for logo */}
                         <Image src="/logo.png" alt="Pouya Birvand Logo" width={32} height={32} className="rounded-lg" />
-                        <AnimatedShinyText className='font-bold text-lg text-secondary' shimmerWidth={20}>Alireza Ghavabesh</AnimatedShinyText>
+                        <AnimatedShinyText className='font-bold text-lg text-secondary' shimmerWidth={20}>{t_common("name")}</AnimatedShinyText>
                     </div>
 
 

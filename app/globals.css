@@ -1,5 +1,11 @@
 @import "tailwindcss";
-@tailwind utilities;
+
+
+@theme {
+  --color-darkBlue: #0284c7;
+  --color-lightBlue: #33deed;
+  --font-iranyekan: "IranYekanWebBold", sans-serif;
+}
 
 @font-face {
   font-family: "IranYekanWebBold";
@@ -10,6 +16,10 @@
   font-style: normal;
 }
 
+
+
+
+
 @custom-variant dark (&:is(.dark *));
 
 @layer base {
@@ -19,6 +29,7 @@
     @apply h-full;
   }
 }
+
 
 /* Define PrimariyContainer as a custom utility class */
 @layer utilities {

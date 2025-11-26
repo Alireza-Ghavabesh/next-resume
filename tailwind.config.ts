@@ -7,13 +7,34 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      autoBlue: {
+        DEFAULT: "#0284c7", // light mode
+        dark: "#33deed",    // dark mode
+      },
+    },
     extend: {
+      colors: {
+      autoBlue: {
+        DEFAULT: "#0284c7", // light mode
+        dark: "#33deed",    // dark mode
+      },
+    },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       keyframes: {
+        ripple: {
+          "0%": { width: "0", height: "0", opacity: "1", transform: "scale(0)" },
+          "100%": {
+            width: "2000px",
+            height: "2000px",
+            opacity: "1",
+            transform: "scale(1)",
+          },
+        },
         // Meteor animation (diagonal fall)
         meteor: {
           "0%": {
@@ -46,6 +67,7 @@ const config: Config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "caret-blink": "caret-blink 1.2s ease-out infinite",
+        shimmer: "shimmer 2.5s linear infinite",
       },
       fontFamily: {
         IRANSansWeb: ["IRANSansWeb"],

@@ -7,6 +7,72 @@
         "Contact": "Contact"
     },
     "heroSection": {
-        "MyName": "Hi, I'm Alireza Ghavabesh"
+        "MyName": "Hi, I'm Alireza Ghavabesh",
+        "getInTouch": "Get in Touch",
+        "viewProjects": "View Projects",
+        "jobTitle": "Fullstack Developer",
+        "location": "Based in Ahvaz, Iran",
+        "bio": "Frontend Developer with 2+ years of experience in Next.js, TypeScript, and modern web technologies. I build scalable, performant applications with clean architecture and exceptional user experiences."
+    },
+    "common": {
+        "name": "Alireza Ghavabesh"
+    },
+    "aboutMe": {
+        "title": "About me",
+        "heading": "Building Modern Web Experiences",
+        "bio1": "With over 2 years of hands-on experience in frontend development, I specialize in React.js, Next.js, and TypeScript. My focus is on creating scalable, performant applications with clean code architecture and seamless user interfaces.",
+        "bio2": "I'm passionate about modern web technologies, performance optimization, and delivering production-ready features. I have experience working remotely with startups and clients, contributing to real-world projects, and mentoring aspiring developers.",
+        "downloadResume": "Download Resume",
+        "yearsExperience": "Years Experience",
+        "happyClients": "Happy Clients"
+    },
+    "experience": {
+        "title": "Career Journey",
+        "heading": "Professional Experience",
+        "subheading": "My journey through different roles and companies, building real-world applications.",
+        "job1": {
+            "title": "Frontend Developer",
+            "company": "Thrill",
+            "roleType": "Part-time - Remote",
+            "dateRange": "May 2025 – Present",
+            "highlights": [
+                "Developed responsive landing pages using Next.js, TypeScript, and Tailwind CSS",
+                "Implemented luxury shimmer effects with reusable Tailwind plugins",
+                "Optimized UI performance and accessibility across devices"
+            ]
+        }
+    },
+    "skills": {
+        "title": "Technical Skills",
+        "heading": "Technologies & Tools",
+        "subheading": "A comprehensive overview of my technical expertise and the tools I use daily.",
+        "frontend": "Frontend Development",
+        "backend": "Backend & APIs",
+        "styling": "Styling & UI",
+        "stateManagement": "State Management",
+        "devops": "DevOps & Tools",
+        "testing": "Testing & Quality"
+    },
+    "projects": {
+        "title": "Portfolio",
+        "heading": "Featured Projects",
+        "subheading": "A showcase of real-world applications built with modern technologies and clean architecture.",
+        "project1": {
+            "title": "Tripjet – Travel Mapping",
+            "description": "Interactive travel mapping platform for recording memories and visited locations."
+        }
+    },
+    "contact": {
+        "title": "Get In Touch",
+        "heading": "Let's Work Together",
+        "subheading": "Have a project in mind or want to collaborate? Feel free to reach out. I'm always open to discussing new opportunities.",
+        "email": "Email",
+        "location": "Location",
+        "sendEmail": "Send Email",
+        "emailPrompt": "Want to work together? Just drop me a line.",
+        "replyTime": "I usually reply within a day."
+    },
+    "footer": {
+        "copyright": "© 2025 Alireza ghavabesh. All rights reserved."
     }
 }
