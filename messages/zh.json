@@ -1,0 +1,78 @@
+{
+    "header": {
+        "About": "关于",
+        "Experience": "经验",
+        "Skills": "技能",
+        "Projects": "项目",
+        "Contact": "联系"
+    },
+    "heroSection": {
+        "MyName": "你好，我是阿里雷扎·加瓦贝什",
+        "getInTouch": "取得联系",
+        "viewProjects": "查看项目",
+        "jobTitle": "全栈开发人员",
+        "location": "位于伊朗阿瓦士",
+        "bio": "前端开发人员，拥有2年以上Next.js、TypeScript和现代Web技术经验。我使用清晰的架构和卓越的用户体验构建可扩展、高性能的应用程序。"
+    },
+    "common": {
+        "name": "阿里雷扎·加瓦贝什"
+    },
+    "aboutMe": {
+        "title": "关于我",
+        "heading": "构建现代Web体验",
+        "bio1": "凭借2年多的前端开发实践经验，我专注于React.js、Next.js和TypeScript。我致力于使用清晰的代码架构和无缝的用户界面创建可扩展、高性能的应用程序。",
+        "bio2": "我热衷于现代Web技术、性能优化和交付可用于生产环境的功能。我拥有与初创公司和客户远程合作的经验，为实际项目做出贡献，并指导有抱负的开发人员。",
+        "downloadResume": "下载简历",
+        "yearsExperience": "年经验",
+        "happyClients": "满意客户"
+    },
+    "experience": {
+        "title": "职业历程",
+        "heading": "专业经验",
+        "subheading": "我在不同角色和公司中的旅程，构建真实世界的应用程序。",
+        "job1": {
+            "title": "前端开发人员",
+            "company": "Thrill",
+            "roleType": "兼职 - 远程",
+            "dateRange": "2025年5月 – 至今",
+            "highlights": [
+                "使用Next.js、TypeScript和Tailwind CSS开发响应式着陆页",
+                "使用可重用Tailwind插件实现豪华闪烁效果",
+                "优化跨设备的UI性能和可访问性"
+            ]
+        }
+    },
+    "skills": {
+        "title": "技术技能",
+        "heading": "技术与工具",
+        "subheading": "我技术专长和日常使用工具的全面概述。",
+        "frontend": "前端开发",
+        "backend": "后端与API",
+        "styling": "样式与UI",
+        "stateManagement": "状态管理",
+        "devops": "DevOps与工具",
+        "testing": "测试与质量"
+    },
+    "projects": {
+        "title": "作品集",
+        "heading": "精选项目",
+        "subheading": "展示使用现代技术和清晰架构构建的真实世界应用程序。",
+        "project1": {
+            "title": "Tripjet – 旅行地图",
+            "description": "用于记录回忆和访问地点的交互式旅行地图平台。"
+        }
+    },
+    "contact": {
+        "title": "取得联系",
+        "heading": "让我们一起工作",
+        "subheading": "有项目想法或想合作？请随时联系。我总是乐于讨论新的机会。",
+        "email": "电子邮件",
+        "location": "地点",
+        "sendEmail": "发送电子邮件",
+        "emailPrompt": "想一起工作？给我留言。",
+        "replyTime": "我通常在一天内回复。"
+    },
+    "footer": {
+        "copyright": "© 2025 Alireza ghavabesh. 版权所有。"
+    }
+}

@@ -15,7 +15,9 @@ export default function LanguageFlipper() {
   }, []);
 
   const getNextLocale = () => {
-    return locale === 'en' ? 'fa' : 'en';
+    if (locale === 'en') return 'fa';
+    if (locale === 'fa') return 'zh';
+    return 'en'; // Defaults to English after Mandarin
   };
 
   const handleClick = () => {
@@ -26,7 +28,7 @@ export default function LanguageFlipper() {
   const nextLanguageLabel = 
     !mounted 
     ? 'Switch Language' // Static value used during SSR/initial hydration
-    : locale === 'en' ? 'Switch to Farsi' : 'Switch to English';
+    : locale === 'en' ? 'Switch to Farsi' : locale === 'fa' ? 'Switch to Mandarin' : 'Switch to English';
 
   // 💡 NEW: Optional: Hide the entire component if it relies heavily on client state
   // if (!mounted) return null; 

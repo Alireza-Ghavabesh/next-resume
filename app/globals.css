@@ -17,7 +17,23 @@
 }
 
 
-
+@theme {
+  /* Define the animation */
+  --animate-gradient: gradient 8s linear infinite;
+  
+  /* Define the keyframes */
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
 
 
 @custom-variant dark (&:is(.dark *));
@@ -28,7 +44,13 @@
   body {
     @apply h-full;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
 }
+
+
 
 
 /* Define PrimariyContainer as a custom utility class */

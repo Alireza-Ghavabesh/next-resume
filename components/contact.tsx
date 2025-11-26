@@ -46,7 +46,7 @@ export function Contact() {
 
                                 <div className="flex items-center gap-4 p-4 rounded-2xl border border-border hover:border-accent/30 transition-all backdrop-blur-xs">
                                     <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-lightBlue/10">
-                                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" className="w-5 h-5 text-darkBlue" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                        <svg stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 text-darkBlue" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
                                     </div>
                                     <div>
                                         <p className="text-sm text-gray-500 font-extrabold">{t("location")}</p>

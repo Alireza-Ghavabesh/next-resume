@@ -15,27 +15,23 @@ const config: Config = {
     },
     extend: {
       colors: {
-      autoBlue: {
-        DEFAULT: "#0284c7", // light mode
-        dark: "#33deed",    // dark mode
+        autoBlue: {
+          DEFAULT: "#0284c7", // light mode
+          dark: "#33deed",    // dark mode
+        },
       },
-    },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       keyframes: {
-        ripple: {
-          "0%": { width: "0", height: "0", opacity: "1", transform: "scale(0)" },
-          "100%": {
-            width: "2000px",
-            height: "2000px",
-            opacity: "1",
-            transform: "scale(1)",
-          },
+
+        gradient: {
+          '0%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+          '100%': { backgroundPosition: '0% 50%' },
         },
-        // Meteor animation (diagonal fall)
         meteor: {
           "0%": {
             transform: "rotate(var(--angle)) translateY(-100%)",
@@ -68,6 +64,7 @@ const config: Config = {
         "accordion-up": "accordion-up 0.2s ease-out",
         "caret-blink": "caret-blink 1.2s ease-out infinite",
         shimmer: "shimmer 2.5s linear infinite",
+        gradient: 'gradient 8s linear infinite'
       },
       fontFamily: {
         IRANSansWeb: ["IRANSansWeb"],

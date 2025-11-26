@@ -3,14 +3,16 @@
 import React, { createContext, useContext, useEffect, useMemo, useState } from "react";
 import en from "@/messages/en.json";
 import fa from "@/messages/fa.json";
+import zh from "@/messages/zh.json"; // <-- Add this import
 
-export type Locale = "en" | "fa";
-const ALL_LOCALES: Locale[] = ["en", "fa"];
+export type Locale = "en" | "fa" | "zh"; // <-- Add "zh" here
+const ALL_LOCALES: Locale[] = ["en", "fa", "zh"]; // <-- Add "zh" here
 
 type Messages = Record<string, Record<string, any>>; // messages[namespace][key]
 const MESSAGES: Record<Locale, Messages> = {
   en: en as any,
   fa: fa as any,
+  zh: zh as any, // <-- Add this entry
 };
 
 type ContextValue = {
