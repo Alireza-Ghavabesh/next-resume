@@ -31,7 +31,7 @@ export function HeroSection() {
                         </h1> */}
                         <GradientText
                             colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
-                            animationSpeed={2}
+                            animationSpeed={6}
                             showBorder={false}
                             className="text-5xl  sm:text-6xl md:text-7xl font-extrabold"
                         >

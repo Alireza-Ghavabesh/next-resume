@@ -12,7 +12,7 @@
         "viewProjects": "查看项目",
         "jobTitle": "全栈开发人员",
         "location": "位于伊朗阿瓦士",
-        "bio": "前端开发人员，拥有2年以上Next.js、TypeScript和现代Web技术经验。我使用清晰的架构和卓越的用户体验构建可扩展、高性能的应用程序。"
+        "bio": "全栈开发人员，拥有2年以上Next.js、TypeScript和现代Web技术经验。我使用清晰的架构和卓越的用户体验构建可扩展、高性能的应用程序。"
     },
     "common": {
         "name": "阿里雷扎·加瓦贝什"
@@ -24,14 +24,16 @@
         "bio2": "我热衷于现代Web技术、性能优化和交付可用于生产环境的功能。我拥有与初创公司和客户远程合作的经验，为实际项目做出贡献，并指导有抱负的开发人员。",
         "downloadResume": "下载简历",
         "yearsExperience": "年经验",
-        "happyClients": "满意客户"
+        "projectsDelivered": "项目交付",
+        "happyClients": "满意客户",
+        "codeQuality": "代码质量"
     },
     "experience": {
         "title": "职业历程",
         "heading": "专业经验",
         "subheading": "我在不同角色和公司中的旅程，构建真实世界的应用程序。",
         "job1": {
-            "title": "前端开发人员",
+            "title": "全栈开发人员",
             "company": "Thrill",
             "roleType": "兼职 - 远程",
             "dateRange": "2025年5月 – 至今",

@@ -20,7 +20,7 @@ export function Projects() {
 
     return (
         <>
-            <section id="skills" className="relative py-32 px-4 sm:px-6 lg:px-8 backdrop-blur-xs">
+            <section id="projects" className="relative py-32 px-4 sm:px-6 lg:px-8 backdrop-blur-xs">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center space-y-4 mb-16">
                         <div className="mb-16 space-y-4">

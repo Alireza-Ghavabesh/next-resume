@@ -12,7 +12,7 @@
         "viewProjects": "View Projects",
         "jobTitle": "Fullstack Developer",
         "location": "Based in Ahvaz, Iran",
-        "bio": "Frontend Developer with 2+ years of experience in Next.js, TypeScript, and modern web technologies. I build scalable, performant applications with clean architecture and exceptional user experiences."
+        "bio": "Fullstack Developer with 2+ years of experience in Next.js, TypeScript, and modern web technologies. I build scalable, performant applications with clean architecture and exceptional user experiences."
     },
     "common": {
         "name": "Alireza Ghavabesh"
@@ -24,14 +24,16 @@
         "bio2": "I'm passionate about modern web technologies, performance optimization, and delivering production-ready features. I have experience working remotely with startups and clients, contributing to real-world projects, and mentoring aspiring developers.",
         "downloadResume": "Download Resume",
         "yearsExperience": "Years Experience",
-        "happyClients": "Happy Clients"
+        "projectsDelivered": "Projects Delivered",
+        "happyClients": "Happy Clients",
+        "codeQuality": "Code Quality"
     },
     "experience": {
         "title": "Career Journey",
         "heading": "Professional Experience",
         "subheading": "My journey through different roles and companies, building real-world applications.",
         "job1": {
-            "title": "Frontend Developer",
+            "title": "Fullstack Developer",
             "company": "Thrill",
             "roleType": "Part-time - Remote",
             "dateRange": "May 2025 – Present",

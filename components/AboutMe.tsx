@@ -51,9 +51,9 @@ export function AboutMe() {
                         </button>
                         <div className="grid grid-cols-2 gap-4 mt-15">
                             <Card aboveText="2+" belowText={t("yearsExperience")} />
+                            <Card aboveText="20+" belowText={t("projectsDelivered")} />
                             <Card aboveText="10+" belowText={t("happyClients")} />
-                            <Card aboveText="2+" belowText={t("yearsExperience")} />
-                            <Card aboveText="2+" belowText={t("yearsExperience")} />
+                            <Card aboveText="95%" belowText={t("codeQuality")} />
                         </div>
                     </div>
                 </div>
