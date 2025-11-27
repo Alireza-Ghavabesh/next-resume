@@ -30,7 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
 
             {/* Foreground */}
-            <div className="relative z-[10] mt-18">
+            <div className="relative z-[10]">
 
               {children}
 
