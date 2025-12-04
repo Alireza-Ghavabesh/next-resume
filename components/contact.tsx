@@ -40,7 +40,7 @@ export function Contact() {
                                     </div>
                                     <div>
                                         <p className="text-sm font-extrabold text-gray-500">{t("email")}</p>
-                                        <Link className="text-primary font-semibold hover:text-darkBlue transition-colors" href="mailto:pooyabirvand@gmail.com">mohandesghavabesh@gmail.com</Link>
+                                        <Link className="text-primary font-semibold hover:text-darkBlue transition-colors" href="mailto:mohandesghavabesh@gmail.com">mohandesghavabesh@gmail.com</Link>
                                     </div>
                                 </div>
 
