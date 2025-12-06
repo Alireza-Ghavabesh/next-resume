@@ -32,17 +32,52 @@
         "title": "职业历程",
         "heading": "专业经验",
         "subheading": "我在不同角色和公司中的旅程，构建真实世界的应用程序。",
-        "job1": {
-            "title": "全栈开发人员",
-            "company": "Thrill",
-            "roleType": "兼职 - 远程",
-            "dateRange": "2025年5月 – 至今",
-            "highlights": [
-                "使用Next.js、TypeScript和Tailwind CSS开发响应式着陆页",
-                "使用可重用Tailwind插件实现豪华闪烁效果",
-                "优化跨设备的UI性能和可访问性"
-            ]
-        }
+        "jobs": [
+            {
+                "title": "FastItem - 游戏内物品市场",
+                "company": "个人项目",
+                "roleType": "全栈开发",
+                "dateRange": "2024",
+                "highlights": [
+                    "开发了一个用于游戏内物品交易的全栈电子商务平台。",
+                    "实现了 Next.js 前端、Python 后端和 Docker 容器化。",
+                    "专注于响应式设计和用户体验。"
+                ]
+            },
+            {
+                "title": "NextBlog - 全栈博客平台",
+                "company": "个人项目",
+                "roleType": "全栈开发",
+                "dateRange": "2024",
+                "highlights": [
+                    "使用 Next.js 前端和 NestJS 后端构建了一个功能丰富的博客应用程序。",
+                    "集成了内容管理、多媒体流媒体和用户身份验证。",
+                    "展示了全栈开发能力。"
+                ]
+            },
+            {
+                "title": "NextResume - 个人作品集网站",
+                "company": "个人项目",
+                "roleType": "前端开发",
+                "dateRange": "2024",
+                "highlights": [
+                    "使用 Next.js、React 和 Tailwind CSS 创建了一个现代化的个人作品集和简历网站。",
+                    "旨在以互动形式展示专业经验、技能和项目。",
+                    "针对性能和跨设备响应进行了优化。"
+                ]
+            },
+            {
+                "title": "NextShop - 高级电子商务平台",
+                "company": "个人项目 / 课程项目",
+                "roleType": "全栈电子商务开发",
+                "dateRange": "2024",
+                "highlights": [
+                    "使用 Next.js、TypeScript、PostgreSQL 和 Prisma 开发了一个全面的电子商务商店。",
+                    "实现了高级功能，包括用户身份验证、多个支付网关（Stripe、PayPal、Zarinpal）和管理仪表板。",
+                    "专注于可扩展性、安全性和丰富的用户体验。"
+                ]
+            }
+        ]
     },
     "skills": {
         "title": "技术技能",
@@ -59,10 +94,59 @@
         "title": "作品集",
         "heading": "精选项目",
         "subheading": "展示使用现代技术和清晰架构构建的真实世界应用程序。",
-        "project1": {
-            "title": "Tripjet – 旅行地图",
-            "description": "用于记录回忆和访问地点的交互式旅行地图平台。"
-        }
+        "projects": [
+            {
+                "title": "FastItem - 游戏内物品市场",
+                "description": "一个用于交易游戏内物品的全栈电子商务平台，包括 Next.js 前端和 Python 后端，并使用 Docker 进行部署。",
+                "imageSrc": "/fastitem.png",
+                "tech": [
+                    "Next.js",
+                    "Tailwindcss"
+                ]
+            },
+            {
+                "title": "NextBlog - 全栈博客平台",
+                "description": "一个功能丰富的博客应用程序，展示全栈功能，包括 Next.js 前端和 NestJS 后端，用于内容管理和多媒体流媒体。",
+                "imageSrc": "/masaf.png",
+                "tech": [
+                    "Next.js",
+                    "Tailwindcss",
+                    "Nest.js",
+                    "Prisma.js (ORM)",
+                    "Mysql"
+                ]
+            },
+            {
+                "title": "NextResume - 个人作品集网站",
+                "description": "一个现代化的个人作品集和简历网站，使用 Next.js、React 和 Tailwind CSS 构建，旨在突出专业经验和技能。",
+                "imageSrc": "/resume.png",
+                "tech": [
+                    "Next.js",
+                    "Tailwindcss"
+                ]
+            },
+            {
+                "title": "NextShop - 高级电子商务平台",
+                "description": "一个全面的电子商务商店，具有高级功能，例如身份验证、多个支付集成（Stripe、PayPal、Zarinpal）和管理仪表板，使用 Next.js、TypeScript、PostgreSQL 和 Prisma 构建。",
+                "imageSrc": "/NextShop.png",
+                "tech": [
+                    "Next.js",
+                    "Tailwindcss",
+                    "Docker",
+                    "Shellcript",
+                    "Nginx",
+                    "TLS & Let's encrypt",
+                    "Zustand & ReactContext",
+                    "Custom hooks",
+                    "Postgresql",
+                    "Prisma.js (ORM)",
+                    "Framer Motion",
+                    "Shadcn ui",
+                    "SSE (Server-Sent Events) is a simpler, one-way alternative to WebSockets",
+                    "NextAuth"
+                ]
+            }
+        ]
     },
     "contact": {
         "title": "取得联系",

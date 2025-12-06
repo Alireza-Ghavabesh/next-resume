@@ -16,7 +16,7 @@ export function Projects() {
     if (!mounted) {
         return null;
     }
-    const project1 = t.getNamespace().project1;
+    const projects = t.getNamespace().projects;
 
     return (
         <>
@@ -31,24 +31,15 @@ export function Projects() {
                             </AnimatedShinyText>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
-                            <TripjetCard
-                                title={project1.title}
-                                description={project1.description}
-                                imageSrc="/project1.webp"
-                                tech={["Next.js", "React Query", "Tailwind CSS"]}
-                            />
-                            <TripjetCard
-                                title={project1.title}
-                                description={project1.description}
-                                imageSrc="/project1.webp"
-                                tech={["Next.js", "React Query", "Tailwind CSS"]}
-                            />
-                            <TripjetCard
-                                title={project1.title}
-                                description={project1.description}
-                                imageSrc="/project1.webp"
-                                tech={["Next.js", "React Query", "Tailwind CSS"]}
-                            />
+                            {projects.map((project: any, index: number) => (
+                                <TripjetCard
+                                    key={index}
+                                    title={project.title}
+                                    description={project.description}
+                                    imageSrc={project.imageSrc}
+                                    tech={project.tech}
+                                />
+                            ))}
                         </div>
 
                     </div>

@@ -1,6 +1,6 @@
 import { SiReact } from "react-icons/si";
 import { AnimatedShinyText } from "./ui/animated-shiny-text";
-
+import Image from "next/image";
 type Props = {
     text: string;
     icon: React.ReactNode;

@@ -32,17 +32,52 @@
         "title": "Career Journey",
         "heading": "Professional Experience",
         "subheading": "My journey through different roles and companies, building real-world applications.",
-        "job1": {
-            "title": "Fullstack Developer",
-            "company": "Thrill",
-            "roleType": "Part-time - Remote",
-            "dateRange": "May 2025 – Present",
-            "highlights": [
-                "Developed responsive landing pages using Next.js, TypeScript, and Tailwind CSS",
-                "Implemented luxury shimmer effects with reusable Tailwind plugins",
-                "Optimized UI performance and accessibility across devices"
-            ]
-        }
+        "jobs": [
+            {
+                "title": "FastItem - In-Game Item Marketplace",
+                "company": "Personal Project",
+                "roleType": "Full-stack Development",
+                "dateRange": "2024",
+                "highlights": [
+                    "Developed a full-stack e-commerce platform for in-game item trading.",
+                    "Implemented Next.js frontend, Python backend, and Docker for containerization.",
+                    "Focused on responsive design and user experience."
+                ]
+            },
+            {
+                "title": "NextBlog - Full-Stack Blogging Platform",
+                "company": "Personal Project",
+                "roleType": "Full-stack Development",
+                "dateRange": "2024",
+                "highlights": [
+                    "Built a feature-rich blogging application with Next.js frontend and NestJS backend.",
+                    "Integrated content management, multimedia streaming, and user authentication.",
+                    "Demonstrated full-stack development capabilities."
+                ]
+            },
+            {
+                "title": "NextResume - Personal Portfolio Website",
+                "company": "Personal Project",
+                "roleType": "Frontend Development",
+                "dateRange": "2024",
+                "highlights": [
+                    "Created a modern personal portfolio and resume website using Next.js, React, and Tailwind CSS.",
+                    "Designed to showcase professional experience, skills, and projects in an interactive format.",
+                    "Optimized for performance and responsive across devices."
+                ]
+            },
+            {
+                "title": "NextShop - Advanced E-commerce Platform",
+                "company": "Personal Project / Course Project",
+                "roleType": "Full-stack E-commerce Development",
+                "dateRange": "2024",
+                "highlights": [
+                    "Developed a comprehensive e-commerce store with Next.js, TypeScript, PostgreSQL, and Prisma.",
+                    "Implemented advanced features including user authentication, multiple payment gateways (Stripe, PayPal, Zarinpal), and an administrative dashboard.",
+                    "Focused on scalability, security, and a rich user experience."
+                ]
+            }
+        ]
     },
     "skills": {
         "title": "Technical Skills",
@@ -59,10 +94,59 @@
         "title": "Portfolio",
         "heading": "Featured Projects",
         "subheading": "A showcase of real-world applications built with modern technologies and clean architecture.",
-        "project1": {
-            "title": "Tripjet – Travel Mapping",
-            "description": "Interactive travel mapping platform for recording memories and visited locations."
-        }
+        "projects": [
+            {
+                "title": "FastItem - In-Game Item Marketplace",
+                "description": "A full-stack e-commerce platform for trading in-game items, featuring a Next.js frontend and a Python backend, containerized with Docker for deployment.",
+                "imageSrc": "/fastitem.png",
+                "tech": [
+                    "Next.js",
+                    "Tailwindcss"
+                ]
+            },
+            {
+                "title": "NextBlog - Full-Stack Blogging Platform",
+                "description": "A feature-rich blog application showcasing full-stack capabilities, with a Next.js frontend and a NestJS backend for content management and multimedia streaming.",
+                "imageSrc": "/masaf.png",
+                "tech": [
+                    "Next.js",
+                    "Tailwindcss",
+                    "Nest.js",
+                    "Prisma.js (ORM)",
+                    "Mysql"
+                ]
+            },
+            {
+                "title": "NextResume - Personal Portfolio Website",
+                "description": "A modern personal portfolio and resume website built with Next.js, React, and Tailwind CSS, designed to highlight professional experience and skills.",
+                "imageSrc": "/resume.png",
+                "tech": [
+                    "Next.js",
+                    "Tailwindcss"
+                ]
+            },
+            {
+                "title": "NextShop - Advanced E-commerce Platform",
+                "description": "A comprehensive e-commerce store with advanced features like authentication, multiple payment integrations (Stripe, PayPal, Zarinpal), and an admin dashboard, built with Next.js, TypeScript, PostgreSQL, and Prisma.",
+                "imageSrc": "/NextShop.png",
+                "tech": [
+                    "Next.js",
+                    "Tailwindcss",
+                    "Docker",
+                    "Shellcript",
+                    "Nginx",
+                    "TLS & Let's encrypt",
+                    "Zustand & ReactContext",
+                    "Custom hooks",
+                    "Postgresql",
+                    "Prisma.js (ORM)",
+                    "Framer Motion",
+                    "Shadcn ui",
+                    "SSE (Server-Sent Events) is a simpler, one-way alternative to WebSockets",
+                    "NextAuth"
+                ]
+            }
+        ]
     },
     "contact": {
         "title": "Get In Touch",

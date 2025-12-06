@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "IRANSansWeb";
+  src: url("/fonts/IRANSansWeb.woff2");
+}
+
+@font-face {
+  font-family: "IranYekanWebBold";
+  src: url("/fonts/IranYekanWeb-Bold.woff2");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}

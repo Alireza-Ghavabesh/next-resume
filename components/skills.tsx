@@ -30,6 +30,10 @@ import TestinglibraryIcon from "tech-stack-icons";
 import SitemapIcon from "tech-stack-icons";
 import RobotstxtIcon from "tech-stack-icons";
 import SeoIcon from "tech-stack-icons";
+import nextjsIcon from '@/custom-icons/Next.js.svg'
+
+import Image from "next/image";
+
 import { useTranslations } from "@/lib/LocaleProvider.client";
 import { useEffect, useState } from "react";
 
@@ -63,7 +67,18 @@ export function Skills() {
                             title={t("frontend")}
                             items={[
                                 { text: "React.js", icon: <ReactIcon name="react" className="w-4 h-4" /> },
-                                { text: "Next.js", icon: <NextjsIcon name="nextjs" className="w-4 h-4" /> },
+                                {
+                                    text: "Next.js",
+                                    icon: (
+                                        <Image
+                                            src={nextjsIcon}
+                                            alt="Next.js"
+                                            width={16}
+                                            height={16}
+                                            className=" dark:bg-white w-4 h-4"
+                                        />
+                                    ),
+                                },
                                 { text: "TypeScript", icon: <TypescriptIcon name="typescript" className="w-4 h-4" /> },
                                 { text: "JavaScript", icon: <JavascriptIcon name="js" className="w-4 h-4" /> },
                             ]}
@@ -75,9 +90,8 @@ export function Skills() {
                                 { text: "Node.js", icon: <NodejsIcon name="nodejs" className="w-4 h-4" /> },
                                 { text: "Express.js", icon: <ExpressIcon name="expressjs" className="w-4 h-4" /> },
                                 { text: "REST APIs", icon: <StackIcon name="swagger" className="w-4 h-4" /> },
-                                { text: "GraphQL", icon: <GraphqlIcon name="graphql" className="w-4 h-4" /> },
-                                // { text: "WebSocket", icon: <WebsocketIcon name="websocket" className="w-4 h-4" /> },
-                                // { text: "Socket.io", icon: <SocketioIcon name="socketio" className="w-4 h-4" /> },
+                                { text: "Nest.js", icon: <StackIcon name="nestjs" className="w-4 h-4" /> },
+                                { text: "Socket.io", icon: <StackIcon name="typescript" className="w-4 h-4" /> },
                             ]}
                         />
 
@@ -95,8 +109,10 @@ export function Skills() {
                             title={t("stateManagement")}
                             items={[
                                 { text: "React Query", icon: <ReactqueryIcon name="reactquery" className="w-4 h-4" /> },
-                                // { text: "Zustand", icon: <ZustandIcon name="zustand" className="w-4 h-4" /> },
-                                { text: "Redux Toolkit", icon: <ReduxIcon name="redux" className="w-4 h-4" /> },
+
+                                { text: "Zustand", icon: <StackIcon name="typescript" className="w-4 h-4" /> },
+                                { text: "React Context Api", icon: <StackIcon name="typescript" className="w-4 h-4" /> },
+
                             ]}
                         />
 

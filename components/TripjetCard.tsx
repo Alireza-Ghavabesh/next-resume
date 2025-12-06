@@ -32,7 +32,7 @@ export const TripjetCard: FC<TripjetCardProps> = ({
           src={imageSrc}
           alt={title}
           fill
-          className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+          className="object- mt-1 transition-transform duration-500 group-hover:scale-[1.03]"
         />
 
         {/* Shine sweep */}
