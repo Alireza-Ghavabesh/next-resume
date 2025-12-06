@@ -7,6 +7,9 @@ import { FaDownload } from "react-icons/fa";
 import { Card } from "@/components/Card";
 import { useTranslations } from "@/lib/LocaleProvider.client";
 import { useEffect, useState } from "react";
+import { BlurIn } from "./BlurIn";
+import AnimatedContent from "./AnimatedContent"
+
 
 export function AboutMe() {
     const t = useTranslations('aboutMe');
@@ -21,9 +24,11 @@ export function AboutMe() {
     }
     return (
         <>
-            <section id="about" className="max-w-7xl mx-auto w-full py-20">
+            <section id="about" className="max-w-7xl mx-auto w-full py-20 overflow-x-hidden">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center px-4 lg:px-8 pb-20">
-                    <Image src='/logo.png' className="rounded-full" width={500} height={500} alt="" />
+                    <BlurIn>
+                        <Image src='/logo.png' className="rounded-full" width={500} height={500} alt="" />
+                    </BlurIn>
                     <div className="box2  space-y-4">
 
                         <MyButton text={t("title")} />
@@ -49,12 +54,25 @@ export function AboutMe() {
                             <FaDownload className="w-5 h-5" />
                             {t("downloadResume")}
                         </button>
-                        <div className="grid grid-cols-2 gap-4 mt-15">
-                            <Card aboveText="2+" belowText={t("yearsExperience")} />
-                            <Card aboveText="20+" belowText={t("projectsDelivered")} />
-                            <Card aboveText="10+" belowText={t("happyClients")} />
-                            <Card aboveText="95%" belowText={t("codeQuality")} />
-                        </div>
+                        <AnimatedContent
+                            distance={150}
+                            direction="horizontal"
+                            reverse={false}
+                            duration={1.2}
+                            ease="bounce.out"
+                          
+                            scale={1.1}
+                            threshold={0.2}
+                            delay={0.3}
+                        >
+                            <div className="grid grid-cols-2 gap-4 mt-15">
+
+                                <Card aboveText="2+" belowText={t("yearsExperience")} />
+                                <Card aboveText="20+" belowText={t("projectsDelivered")} />
+                                <Card aboveText="10+" belowText={t("happyClients")} />
+                                <Card aboveText="95%" belowText={t("codeQuality")} />
+                            </div>
+                        </AnimatedContent>
                     </div>
                 </div>
             </section>
