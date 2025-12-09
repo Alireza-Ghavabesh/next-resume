@@ -65,7 +65,7 @@ export function ExCard({
                     <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                     <circle cx="12" cy="10" r="3"></circle>
                   </svg>
-                  <AnimatedShinyText className="text-secondary" shimmerWidth={30}>
+                  <AnimatedShinyText className="text-secondary" shimmerWidth={70}>
                     {roleType}
                   </AnimatedShinyText>
                 </span>
@@ -88,7 +88,7 @@ export function ExCard({
                   <line x1="8" y1="2" x2="8" y2="6"></line>
                   <line x1="3" y1="10" x2="21" y2="10"></line>
                 </svg>
-                <AnimatedShinyText className="text-secondary" shimmerWidth={30}>
+                <AnimatedShinyText className="text-secondary" shimmerWidth={70}>
                   {dateRange}
                 </AnimatedShinyText>
               </div>
@@ -99,7 +99,7 @@ export function ExCard({
               {highlights.map((item, idx) => (
                 <li key={idx} className="flex items-start gap-2 sm:gap-3">
                   <span className="inline-block w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-[#33deed] mt-2 sm:mt-2.5 flex-shrink-0"></span>
-                  <AnimatedShinyText className="text-secondary" shimmerWidth={30}>
+                  <AnimatedShinyText className="text-secondary" shimmerWidth={70}>
                     {item}
                   </AnimatedShinyText>
                 </li>
