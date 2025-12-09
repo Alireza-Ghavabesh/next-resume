@@ -50,7 +50,7 @@ export function Contact() {
                                     </div>
                                     <div>
                                         <p className="text-sm text-gray-500 font-extrabold">{t("location")}</p>
-                                        <Link className="text-primary font-semibold hover:text-darkBlue transition-colors" href="mailto:pooyabirvand@gmail.com">Ahvaz, Iran</Link>
+                                        <Link className="text-primary font-semibold hover:text-darkBlue transition-colors" href="mailto:mohandesghavabesh@gmail.com">Ahvaz, Iran</Link>
                                     </div>
                                 </div>
 
@@ -91,7 +91,7 @@ export function Contact() {
 
                             {/* Email Button */}
                             <a
-                                href="mailto:pooyabirvand@gmail.com"
+                                href="mailto:mohandesghavabesh@gmail.com"
                                 className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-background text-base font-semibold rounded-full hover:opacity-90 transition-all"
                             >
                                 <svg
