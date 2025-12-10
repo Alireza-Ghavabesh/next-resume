@@ -41,7 +41,7 @@ export function AboutMe() {
                         <AnimatedShinyText className="dark:text-secondary text-lg  backdrop-blur-xs" shimmerWidth={70}>
                             {t("bio2")}
                         </AnimatedShinyText>
-                        <Link href={"/ALIREZAGHAVABESH.pdf"}
+                        <Link href={"/alirezaghavabesh.pdf"}
                         target="_blank"
                             className="
                                 px-4 py-2 flex items-center gap-2 w-fit rounded-lg font-medium
