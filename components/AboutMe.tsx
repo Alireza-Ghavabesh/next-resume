@@ -41,7 +41,7 @@ export function AboutMe() {
                         <AnimatedShinyText className="dark:text-secondary text-lg  backdrop-blur-xs" shimmerWidth={70}>
                             {t("bio2")}
                         </AnimatedShinyText>
-                        <button
+                        <Link href={"/alirezaghavabesh.pdf"}
                             className="
                                 px-4 py-2 flex items-center gap-2 w-fit rounded-lg font-medium
                                 border transition-all duration-300
@@ -53,7 +53,7 @@ export function AboutMe() {
                         >
                             <FaDownload className="w-5 h-5" />
                             {t("downloadResume")}
-                        </button>
+                        </Link>
                         <AnimatedContent
                             distance={150}
                             direction="horizontal"
